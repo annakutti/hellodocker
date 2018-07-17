@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    image: app80
+    deploy:
+      replicas: 2
+    ports:
+      - "80:80"
